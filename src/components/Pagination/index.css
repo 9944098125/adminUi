@@ -1,0 +1,26 @@
+.non-active-btn {
+  color: rgb(29, 29, 32);
+  border: 0px none;
+  border-radius: 40px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 20px;
+  font-weight: lighter;
+  font-family: Roboto;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  cursor: move;
+}
+
+.active-btn {
+  color: rgba(0, 0, 14, 0.226);
+  font-weight: bold;
+  font-family: Roboto;
+  font-size: 18px;
+  cursor: move;
+  background-color: rgb(10, 153, 236);
+  height: 40px;
+}
